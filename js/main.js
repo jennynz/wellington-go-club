@@ -42,15 +42,21 @@ $(document).ready(function() {
     }, 1000);
 	});
 
-  $("#events-link").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#events").offset().top-100
-    }, 1000);
-	});
-
   $("#about-link").click(function() {
     $('html, body').animate({
         scrollTop: $("#about").offset().top-100
+    }, 1000);
+	});
+
+	$("#beginners-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#beginners").offset().top-100
+    }, 1000);
+	});
+
+  $("#events-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#events").offset().top-100
     }, 1000);
 	});
 

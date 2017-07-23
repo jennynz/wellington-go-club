@@ -1,0 +1,360 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"create",
+				"createSongAddress"
+			],
+			[
+				"max",
+				"maxValue"
+			],
+			[
+				"A",
+				"sumArray"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 129.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"vmen",
+				"View: Toggle Menu"
+			],
+			[
+				"Convert",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"Install Package",
+			"Install Package Control",
+			"https://github.com/seanliang/ConvertToUTF8",
+			"install ConvertToUTF8"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jenny/Documents/the-lc-app/src/components/main/study/SubjectHome.vue",
+		"/C/Users/Jenny/Documents/the-lc-app/src/components/main/Dashboard.vue",
+		"/C/Users/Jenny/AppData/Local/Microsoft/Windows/INetCache/IE/WB0O55J5/miniclipId[1].txt",
+		"/C/Users/Jenny/Documents/The Magic iPod's Mashups/scrape-songs.js",
+		"/C/Users/Jenny/Documents/The Magic iPod's Mashups/test.js",
+		"/C/Users/Jenny/Documents/The Magic iPod's Mashups/scrape-songs.sh",
+		"/C/Users/Jenny/Downloads/Welcome.vue",
+		"/C/Users/Jenny/Downloads/Support.vue",
+		"/C/Users/Jenny/Documents/The Magic iPod's Mashups/magicipod.js",
+		"/C/Users/Jenny/Documents/The Magic iPod's Mashups/test.sh",
+		"/C/Users/Jenny/Desktop/movieDatabase.js",
+		"/C/Users/Jenny/AppData/Roaming/Sublime Text 3/Packages/User/Node.sublime-build",
+		"/C/Users/Jenny/Desktop/diyForEach.js",
+		"/C/Users/Jenny/Desktop/arrayproblems.js",
+		"/C/Users/Jenny/Desktop/todo.html",
+		"/C/Users/Jenny/Desktop/todo.js",
+		"/D/Coding/Learning/Udemy Web Dev Bootcamp/PurrfectMatch/landing.css",
+		"/D/Coding/Learning/Udemy Web Dev Bootcamp/PurrfectMatch/landing.html",
+		"/C/Users/Jenny/Dropbox/Documents/CVs, Applications & References/Cover Letters, Job Applications & Letters/SJS website job app",
+		"/C/Users/Jenny/Documents/Udemy/photos.css",
+		"/C/Users/Jenny/Documents/Udemy/photoGrid.html",
+		"/C/Users/Jenny/Documents/Udemy/tictactoe.css",
+		"/C/Users/Jenny/Documents/Udemy/tictactoe.html",
+		"/C/Users/Jenny/Dropbox/Documents/CVs, Applications & References/Cover Letters, Job Applications & Letters/SJS Job Applications.txt",
+		"/D/!@pVc/Text.txt",
+		"/C/Users/Jenny/Documents/Coding/Learning/Udemy Web Dev Bootcamp/09_Selector_Exercise_Starter/selectors.css",
+		"/C/Users/Jenny/Downloads/10-Selector-Exercise-Solution/10_Selector_Exercise_Solution/solution.css",
+		"/C/Users/Jenny/Documents/Coding/Learning/Udemy Web Dev Bootcamp/form_exercise.html",
+		"/C/Users/Jenny/Documents/Coding/Learning/Udemy Web Dev Bootcamp/pokemondata.html",
+		"/C/Users/Jenny/AppData/Local/Temp/Temp1_Pokemondata.zip/pokemondata.txt",
+		"/C/Users/Jenny/Documents/Coding/Learning/Udemy Web Dev Bootcamp/html_list.html",
+		"/C/Users/Jenny/Downloads/text.html",
+		"/E/Coding/Resources/powershell command for deleting certain extensions.txt",
+		"/C/Users/Jenny/Dropbox/Documents/CVs, Applications, References/SJS Job Applications",
+		"/C/Users/Jenny/Documents/redshift-1.10-x86_64/README.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 마법사의 돌 01권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 마법사의 돌 02권.txt",
+		"/C/Users/Jenny/Documents/Calibre Library/J. K. Rowling/haeripoteowa bulsajogisadan 01gweon (397)/haeripoteowa bulsajogisadan 01g - J. K. Rowling.txt",
+		"/C/Users/Jenny/Documents/Coding/Fonts/notes.md",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 불사조기사단 01권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 불사조기사단 02권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 불사조기사단 03권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 불사조기사단 04권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 불사조기사단 05권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 불의 잔 01권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 불의 잔 02권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 불의 잔 03권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 불의 잔 04권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 비밀의 방 01권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 비밀의 방 02권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 아즈카반의 죄수 01권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 아즈카반의 죄수 02권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 죽음의 성물 01권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 죽음의 성물 02권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 죽음의 성물 03권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 죽음의 성물 04권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 혼혈왕자 01권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 혼혈왕자 02권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 혼혈왕자 03권.txt",
+		"/C/Users/Jenny/Documents/Ebooks/Harry Potter (KR)/해리포터와 혼혈왕자 04권.txt",
+		"/E/Part IV Project/report_discussion.tex",
+		"/E/Part IV Project/R code/pca_1Set_combined.R",
+		"/E/Part IV Project/R code/corr_intra_pharyngeal.txt",
+		"/E/Part IV Project/All VT data/VT01/Set1/distance_area/had.txt",
+		"/E/Part IV Project/All VT data/VT04/Set1/distance_area/had.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/Area functions for VT04 and VT07/VT04/Hod2/area-function.bat",
+		"/C/Users/Jenny/Documents/Part IV Project/Area functions for VT04 and VT07/VT04/Hod2/Pharyngeal/7areacalculation/area.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/Area functions for VT04 and VT07/VT04/Hod/Pharyngeal/7areacalculation/area.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/Area functions for VT04 and VT07/VT04/Whod2/area-function.bat",
+		"/C/Users/Jenny/Documents/Part IV Project/Area functions for VT04 and VT07/VT04/Whod/Pharyngeal/7areacalculation/area.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/Template/area-function.bat",
+		"/C/Users/Jenny/Documents/Part IV Project/Area functions for VT04 and VT07/VT04/Whod2/Oral/7areacalculation/area.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/Area functions for VT04 and VT07/VT04/Whod/Oral/7areacalculation/area.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/Area functions for VT04 and VT07/VT04/Whod2/Oral/9viewcompleteimagewithselecteddatapoints/data_point_viewer.com",
+		"/C/Users/Jenny/Documents/Part IV Project/Area functions for VT04 and VT07/VT04/Whod/Oral/9viewcompleteimagewithselecteddatapoints/data_point_viewer-update.com",
+		"/C/Users/Jenny/Documents/Part IV Project/Helen Summer Work2012/Vocal Tracts from Varadha/VT09/Whod/Oral/9viewcompleteimagewithselecteddatapoints/data_point_viewer.com",
+		"/C/Users/Jenny/Documents/Part IV Project/Area functions for VT04 and VT07/VT04/Whod2/Oral/9viewcompleteimagewithselecteddatapoints/data_point_viewer-update.com",
+		"/C/Users/Jenny/Videos/The Secret life of Pets 1080p HD-TS x264 AC3-DADDY.[PRiME]/Read More!!!.txt",
+		"/E/Part IV Project/Set2s/VT11/Hid/area-function.bat",
+		"/E/Part IV Project/Set2s/VT11/Hoard/Oral/6vocaltractnodeplacement/data_point_placement.com",
+		"/E/Part IV Project/Set2s/VT11/Hoard/Oral/2create_slices/CreateSlices.pl",
+		"/E/Part IV Project/Set2s/VT11/Hoard/Oral/2create_slices/curve.exnode",
+		"/E/Part IV Project/Set2s/VT11/Hid/Oral/6vocaltractnodeplacement/data_point_placement.com",
+		"/E/Part IV Project/Set2s/VT11/Hid/Oral/4view 3d image/view-update.com",
+		"/E/Part IV Project/Set2s/VT11/Had/area-function.bat",
+		"/E/Part IV Project/Set2s/VT11/Hard/Pharyngeal/9viewcompleteimagewithselecteddatapoints/data_point_viewer.com",
+		"/E/Part IV Project/Set2s/VT11/Had/Pharyngeal/9viewcompleteimagewithselecteddatapoints/data_point_viewer.com",
+		"/E/Part IV Project/Set2s/VT11/Hard/Pharyngeal/6vocaltractnodeplacement/data_point_placement.com",
+		"/E/Part IV Project/Set2s/VT11/Had/Oral/1create_snake/snake.com",
+		"/E/Part IV Project/Set2s/VT11/Had/Oral/9viewcompleteimagewithselecteddatapoints/data_point_viewer.com",
+		"/E/Part IV Project/Set2s/VT11/Hard/Oral/6vocaltractnodeplacement/data_point_placement.com",
+		"/E/Part IV Project/Template/area-function.bat",
+		"/E/Part IV Project/Set2's/VT11/Had/area-function.bat",
+		"/E/Part IV Project/Set2's/VT11/Had/BatchSubstitute.bat",
+		"/C/Users/Jenny/Downloads/Alexia's Year in Review",
+		"/C/Users/Jenny/Documents/Part IV Project/R code/Cross-sectional Area analysis.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/R code/Correlation Analysis of resonances.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/R code/plottingDanielsMRIdata.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/R code/acquiring spectrum from areas.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/R code/readingin the MRIdata.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/R code/readinMRIdata_oneSet.R",
+		"/C/Users/Jenny/Documents/Part IV Project/R code/story2005.rotatedData.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/R code/story2005.rotatedData.forR.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/Daniel2012/Data run/VT03/Set1/distance_area/herd.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/Helen Summer Work2012/Vocal Tracts from Varadha/VT01/distance_area/had.txt",
+		"/C/Users/Jenny/Documents/Part IV Project/Daniel2012/Data run/VT03/Set2/distance_area/herd.txt"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"StudyHome",
+			"( \"",
+			"$( \"#",
+			"STUNT",
+			"#",
+			"PAR",
+			"#",
+			"accept: ",
+			"droppable(",
+			"array",
+			"\t\n",
+			"alert",
+			".jpg",
+			"right",
+			"left",
+			"top",
+			"This",
+			"<!--",
+			"email",
+			"male",
+			"last",
+			"first",
+			"img src",
+			"img",
+			"Name",
+			"td",
+			"subsubsection",
+			"lookup_tex_",
+			"plane_number",
+			"max_plan",
+			"bmp",
+			"had",
+			"vt04",
+			"heed1",
+			" />",
+			"</a>",
+			"<a href=\"http://www.thelearningcollaborative.org.nz/wp-content/uploads/",
+			"R1",
+			"VT05",
+			"VT03"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"subsection",
+			"vt11",
+			"hadd2",
+			"VT07",
+			"VT04"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 308.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

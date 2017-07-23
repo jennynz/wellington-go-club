@@ -13,10 +13,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
-
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -76,9 +72,9 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section class="header">
     <!-- Make the header image animated -->
-      <!-- <img src="images/go-shusaku.svg" class="header-animation"> -->
+      <img src="images/go-shusaku.svg" class="header-animation">
       <h1>Wellington Go Club</h1>
-      <h4>A friendly space to learn and to play<br>the ancient game of go (a.k.a. baduk, weiqi).</h4>
+      <h4>A friendly space to learn and to play the ancient game of go (a.k.a. baduk, weiqi).</h4>
     </section>
 
 
@@ -264,6 +260,22 @@
 
   <!-- SCRIPTS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- Asynchronous font loading
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript">
+    WebFontConfig = {
+        google: { families: [ 'Raleway:300,400,700' ] }
+    };
+    (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
 
   <!-- Font Awesome icons -->
   <script src="https://use.fontawesome.com/b21174da26.js"></script>

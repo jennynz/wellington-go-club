@@ -50,7 +50,7 @@ $(document).ready(function() {
 
 	$("#beginners-link").click(function() {
     $('html, body').animate({
-        scrollTop: $("#beginners").offset().top-100
+        scrollTop: $("#beginners").offset().top-120
     }, 1000);
 	});
 

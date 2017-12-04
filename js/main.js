@@ -24,7 +24,7 @@ $(document).ready(function() {
 
   function smoothScroll(e) {
     e.preventDefault();
-    $(document).off("scroll");
+    $document.off("scroll");
 
     var target = this.hash,
         menu = target,
@@ -43,7 +43,7 @@ $(document).ready(function() {
 
     $target = $(target);
     $('html, body').animate({ 'scrollTop': offset }, 1000, 'swing', function () {
-        $(document).on("scroll", onScroll);
+        $document.on("scroll", onScroll);
     });
   }
 
@@ -63,8 +63,9 @@ $(document).ready(function() {
   }
 
   function toggleResponsiveMenu() {
-    if (document.getElementById("nav").checked == true) {
-      document.getElementById("nav").checked = false
+    var nav = document.getElementById("nav");
+    if (nav.checked == true) {
+      nav.checked = false
     }; 
   }
 

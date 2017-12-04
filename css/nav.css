@@ -1,6 +1,6 @@
-* {
-  box-sizing: border-box;
-}
+/* Responsive full screen hamburger menu */
+/* Modified from https://codepen.io/andreasstorm/pen/lriga */
+
 nav ul {
   float: none;
   text-align: center;
@@ -24,6 +24,39 @@ nav ul li a:hover {
   color: #0FA0CE;
   text-decoration: none;
 }
+#nav:checked + .nav-open {
+  transform: rotate(45deg);
+}
+#nav:checked + .nav-open i {
+  background: #fff;
+  transition: transform 0.2s ease;
+}
+#nav:checked + .nav-open i:nth-child(1) {
+  transform: translateY(6px) rotate(180deg);
+}
+#nav:checked + .nav-open i:nth-child(2) {
+  opacity: 0;
+}
+#nav:checked + .nav-open i:nth-child(3) {
+  transform: translateY(-6px) rotate(90deg);
+}
+#nav:checked ~ .nav-container {
+  z-index: 9990;
+  opacity: 1;
+}
+#nav:checked ~ .nav-container ul li a {
+  opacity: 1;
+  transform: translateY(0);
+}
+#nav {
+  display: none;
+  outline: none;
+}
+.nav-open {
+  outline: none;
+  margin: 0;
+}
+
 @media screen and (max-width: 992px) {
   .nav-container {
     position: fixed;
@@ -111,36 +144,4 @@ nav ul li a:hover {
   .nav-open i:nth-child(3) {
     margin-top: 4px;
   }
-}
-#nav:checked + .nav-open {
-  transform: rotate(45deg);
-}
-#nav:checked + .nav-open i {
-  background: #fff;
-  transition: transform 0.2s ease;
-}
-#nav:checked + .nav-open i:nth-child(1) {
-  transform: translateY(6px) rotate(180deg);
-}
-#nav:checked + .nav-open i:nth-child(2) {
-  opacity: 0;
-}
-#nav:checked + .nav-open i:nth-child(3) {
-  transform: translateY(-6px) rotate(90deg);
-}
-#nav:checked ~ .nav-container {
-  z-index: 9990;
-  opacity: 1;
-}
-#nav:checked ~ .nav-container ul li a {
-  opacity: 1;
-  transform: translateY(0);
-}
-#nav {
-  display: none;
-  outline: none;
-}
-.nav-open {
-  outline: none;
-  margin: 0;
 }

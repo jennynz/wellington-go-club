@@ -185,13 +185,14 @@
       <label for="emailMessage">Message</label>
       <textarea class="u-full-width" name="message" placeholder="I find myself in the windy city of Wellington..." id="emailMessage"></textarea>
       <input type="submit" value="Send">
+      <input type="hidden" name="_next" value="email_sent.html" />
     </form>
     </div>
 
     <!-- FOOTER
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="body-section footer">
-      Wellington Go Club 2017 &copy; Built using <a href="http://getskeleton.com" alt="Skeleton: Responsive CSS Boilerplate" target="_blank">Skeleton CSS</a> by Jenny Sahng. <br>
+      Wellington Go Club 2017 &copy; Built using <a href="http://getskeleton.com" alt="Skeleton: Responsive CSS Boilerplate" target="_blank">Skeleton CSS</a> by Jenny Sahng.<br>
       Icons from the Noun Project: Go by Duygu Ozkan, Location by prakruti, Handshake by FORMGUT.
     </div>
 
@@ -200,8 +201,7 @@
   <!-- SCRIPTS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <!-- Asynchronous font loading
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Asynchronous font loading -->
   <script type="text/javascript">
     WebFontConfig = {
         google: { families: [ 'Raleway:300,400,700' ] }
@@ -215,9 +215,6 @@
         s.parentNode.insertBefore(wf, s);
     })();
   </script>
-
-  <!-- Font Awesome icons -->
-  <script src="https://use.fontawesome.com/b21174da26.js"></script>
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

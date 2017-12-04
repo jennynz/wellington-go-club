@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/nav.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -28,45 +29,18 @@
 
   <div class="container" id="top">
 
-   <!-- NAVBAR
+    <!-- NAVBAR
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="navbar-spacer"></div>
     <nav class="navbar">
-      <div class="container">
+      <input type="checkbox" id="nav"/>
+      <label for="nav" class="nav-open"><i></i><i></i><i></i></label>
+      <div class="nav-container">
         <ul class="navbar-list">
-          <li class="navbar-item"><a href="index.html" class="navbar-link">Home</a></li>
-          <li class="navbar-item"><a href="index.html#about" class="navbar-link">About</a></li>
-          <li class="navbar-item"><a href="index.html#events" class="navbar-link">Events</a></li>
-          <li class="navbar-item"><a href="index.html#resources" class="navbar-link">Resources</a></li>
-          <li class="navbar-item"><a href="index.html#contact" class="navbar-link">Contact</a></li>
-          <li class="navbar-item">
-            <a class="navbar-link navbar-social-icon"
-                href="https://www.facebook.com/groups/459222837770417/"
-                alt="The Wellington Go Club Facebook group"
-                target="_blank">
-              <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="navbar-item">
-            <a class="navbar-link navbar-social-icon"
-                href="https://www.meetup.com"
-                alt="The Wellington Go Club on Meetup.com"
-                target="_blank">
-              <i class="fa fa-meetup fa-2x" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="navbar-item">
-            <a class="navbar-link  navbar-social-icon navbar-final"
-                href="http://senseis.xmp.net/?WellingtonGoClub"
-                alt="The Wellington Go Club at Sensei's Library"
-                target="_blank">
-              <i class="fa fa-book fa-2x" aria-hidden="true"></i>
-            </a>
-          </li>
+          <li><a href="index.html" id="#top-link" class="navbar-link">Back to home</a></li>
         </ul>
       </div>
     </nav>
-
 
     <!-- THANK YOU
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -74,19 +48,17 @@
 
       <h2 class="body-header" id="email_sent">Thank you for your message</h2>
       <p>
-        We'll get back to you as soon as possible. If you don't hear from us, you can always contact <strong>Fergus</strong> on <strong>020 4085 7265</strong> or message him directly at <strong>fergusroachenz@gmail.com</strong>.
+        We'll get back to you as soon as possible.<br>If you don't hear from us, you can always contact <strong>Fergus</strong> on <strong>020 4085 7265</strong> or message him directly at <strong>fergusroachenz@gmail.com</strong>.
       </p>
       <p>
         Looking forward to seeing you at one of our meetups soon!
       </p>
     </div>
 
-
-
     <!-- FOOTER
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="body-section footer">
-      Wellington Go Club 2017 &copy; Built using <a href="http://getskeleton.com" alt="Skeleton: Responsive CSS Boilerplate" target="_blank">Skeleton CSS</a> by Jenny Sahng. <br>
+      Wellington Go Club 2017 &copy; Built using <a href="http://getskeleton.com" alt="Skeleton: Responsive CSS Boilerplate" target="_blank">Skeleton CSS</a> by Jenny Sahng.<br>
     </div>
 
   </div>
@@ -94,8 +66,7 @@
   <!-- SCRIPTS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <!-- Asynchronous font loading
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Asynchronous font loading -->
   <script type="text/javascript">
     WebFontConfig = {
         google: { families: [ 'Raleway:300,400,700' ] }
@@ -109,14 +80,10 @@
         s.parentNode.insertBefore(wf, s);
     })();
   </script>
-
-  <!-- Font Awesome icons -->
-  <script src="https://use.fontawesome.com/b21174da26.js"></script>
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
 
 </body>
 </html>

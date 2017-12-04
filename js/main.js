@@ -1,8 +1,7 @@
 $(document).ready(function() {
 
   // Variables
-  var $codeSnippets = $('.code-example-body'),
-      $nav = $('.navbar'),
+  var $nav = $('nav'),
       $body = $('body'),
       $window = $(window),
       navOffsetTop = $nav.offset().top,
@@ -17,9 +16,10 @@ $(document).ready(function() {
       }
 
   function init() {
-    $window.on('scroll', onScroll)
-    $window.on('resize', resize)
-    $('a[href^="#"]').on('click', smoothScroll)
+    $window.on('scroll', onScroll);
+    $window.on('resize', resize);
+    $('a[href^="#"]').on('click', smoothScroll);
+    $(".nav-container ul li a").on('click', toggleResponsiveMenu);
   }
 
   function smoothScroll(e) {
@@ -28,63 +28,32 @@ $(document).ready(function() {
     var target = this.hash,
         menu = target;
     $target = $(target);
-    $('html, body').stop().animate({
-        'scrollTop': $target.offset().top-40
-    }, 0, 'swing', function () {
-        window.location.hash = target;
+    $('html, body').animate({
+        'scrollTop': $target.offset().top - 30 
+    }, 1000, 'swing', function () {
         $(document).on("scroll", onScroll);
     });
   }
 
-  $("#top-link").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#top").offset().top
-    }, 1000);
-	});
-
-  $("#about-link").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#about").offset().top-100
-    }, 1000);
-	});
-
-	$("#beginners-link").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#beginners").offset().top-120
-    }, 1000);
-	});
-
-  $("#events-link").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#events").offset().top-100
-    }, 1000);
-	});
-
-	$("#resources-link").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#resources").offset().top-100
-    }, 1000);
-	});
-
-  $("#contact-link").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#contact").offset().top-100
-    }, 1000);
-	});
-
   function resize() {
-    $body.removeClass('has-docked-nav')
-    navOffsetTop = $nav.offset().top
-    onScroll()
+    $body.removeClass('has-docked-nav');
+    navOffsetTop = $nav.offset().top;
+    onScroll();
   }
 
   function onScroll() {
     if(navOffsetTop < $window.scrollTop() && !$body.hasClass('has-docked-nav')) {
       $body.addClass('has-docked-nav')
-    }
+    };
     if(navOffsetTop > $window.scrollTop() && $body.hasClass('has-docked-nav')) {
       $body.removeClass('has-docked-nav')
-    }
+    };
+  }
+
+  function toggleResponsiveMenu() {
+    if (document.getElementById("nav").checked == true) {
+      document.getElementById("nav").checked = false
+    }; 
   }
 
   init();

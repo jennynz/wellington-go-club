@@ -1,4 +1,10 @@
-/* Mobile (Under 576px) */
+/* General/Mobile first (Under 576px) */
+.container {
+  max-width: 800px;
+}
+.header > h1 {
+  margin-bottom: 2rem;
+}
 .nav-container {
   width: 80%;
   max-width: 800px;

@@ -64,6 +64,8 @@ h3 {
 
 /* Tablet (768px to 991px) */
 @media (min-width: 768px) {
+  h1, h2 {
+  margin-bottom: 4rem; }
   .body-section {
   padding: 8rem 0;}  
 }

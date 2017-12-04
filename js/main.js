@@ -25,12 +25,24 @@ $(document).ready(function() {
   function smoothScroll(e) {
     e.preventDefault();
     $(document).off("scroll");
+
     var target = this.hash,
-        menu = target;
+        menu = target,
+        width = window.innerWidth,
+        offset = $(target).offset().top;
+    
+    if (width < 576) {
+      offset -= 15;
+    } else if (width < 768) {
+      offset -= 40;
+    } else if (width < 992) {
+      offset -= 60;
+    } else {
+      offset -= 125;
+    }
+
     $target = $(target);
-    $('html, body').animate({
-        'scrollTop': $target.offset().top - 30 
-    }, 1000, 'swing', function () {
+    $('html, body').animate({ 'scrollTop': offset }, 1000, 'swing', function () {
         $(document).on("scroll", onScroll);
     });
   }

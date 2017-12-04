@@ -1,18 +1,16 @@
 * {
   box-sizing: border-box;
 }
-nav {
-  padding: 30px;
-}
 nav ul {
-  float: right;
+  float: none;
+  text-align: center;
 }
 nav ul li {
   display: inline-block;
-  float: left;
+  float: none;
 }
 nav ul li:not(:first-child) {
-  margin-left: 25px;
+  margin-left: 60px;
 }
 nav ul li a {
   display: inline-block;
@@ -23,16 +21,17 @@ nav ul li a {
   letter-spacing: 0.04em;
 }
 nav ul li a:hover {
-  color: #808080;
+  color: #0FA0CE;
   text-decoration: none;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 992px) {
   .nav-container {
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
+    max-width: none;
     z-index: -1;
     background: #1f2227;
     opacity: 0;
@@ -46,10 +45,6 @@ nav ul li a:hover {
   }
   .nav-container ul li {
     display: block;
-    float: none;
-    width: 100%;
-    text-align: right;
-    margin-bottom: 10px;
   }
   .nav-container ul li:nth-child(1) a {
     transition-delay: 0.1s;
@@ -143,4 +138,9 @@ nav ul li a:hover {
 }
 #nav {
   display: none;
+  outline: none;
+}
+.nav-open {
+  outline: none;
+  margin: 0;
 }

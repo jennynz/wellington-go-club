@@ -1,5 +1,8 @@
-.container {
-  max-width: 800px; }
+/* Mobile (Under 576px) */
+.nav-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto; }
 .header {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -15,22 +18,36 @@
   border-top: 1px solid #eee;
   padding: 4rem 0;
   margin-bottom: 0;}
+.subtitle {
+  max-width: 800px;
+  margin: 0 auto;
+}
 .value-img {
   display: block;
   text-align: center;
   margin: 0 auto;
   width: 100px; }
-.navbar {
-  display: none; }
 
-/* Larger than phone */
-@media (min-width: 550px) {
+/* Landscape mobile devices (576px to 767px) */
+@media (min-width: 576px) {
+  h3 { font-size: 2.6rem; }
+  blockquote { font-size: x-large; }
   .value-img {
     margin-bottom: 1rem; }
+  .header {
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+  }
 }
 
-/* Larger than tablet */
-@media (min-width: 750px) {
+/* Tablet (768px to 991px) */
+@media (min-width: 768px) {
+  .body-section {
+  padding: 8rem 0;}  
+}
+
+/* Laptops (992px+) */
+@media (min-width: 992px) {
 	.header {
 		margin-top: 10rem;
 		margin-bottom: 8rem;
@@ -52,23 +69,17 @@
     border-bottom: 1px solid #eee; }
   .navbar-spacer {
     display: none; }
-  .navbar > .container {
-    width: 100%; }
   .navbar-list {
     list-style: none;
-    margin-bottom: 0; }
-  .navbar-item {
-    position: relative;
-    float: left;
-    margin-bottom: 0; }
+    margin: 0 auto;
+    width: fit-content; }
   .navbar-link {
+    font-size: 13px;
     text-transform: uppercase;
-    font-size: 11px;
     font-weight: 600;
     letter-spacing: .2rem;
-    margin-right: 35px;
-    text-decoration: none;
     line-height: 6.5rem;
+    text-decoration: none;
     color: #222; }
   .navbar-link.active {
     color: #33C3F0; }
@@ -78,16 +89,6 @@
     left: 0; }
   .has-docked-nav .navbar-spacer {
     display: block; }
-  /* Re-overiding the width 100% declaration to match size of % based container */
-  .has-docked-nav .navbar > .container {
-    width: 80%; }
-  .navbar-social-icon {
-  	margin-right: 2rem;
-  	color: #383838;
-  }
-  .navbar-final {
-  	margin-right: 0;
-  }
 }
 
 blockquote {
@@ -97,19 +98,9 @@ blockquote {
 
 h3 { font-size: 2.6rem; line-height: 1.4;  letter-spacing: -.06rem; }
 
-@media (min-width: 550px) {
-	h3 { font-size: 2.6rem; }
-	blockquote { font-size: x-large; }
-}
 
 body {
-	padding-bottom: 10rem;
-}
-
-.header-animation {
-	width: 50%;
-	max-width: 280px;
-	margin-bottom: 4rem;
+	padding-bottom: 5rem;
 }
 
 textarea {
